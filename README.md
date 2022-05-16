@@ -1,8 +1,11 @@
 # simple_shell
 Background Context
+
 Write a simple UNIX command interpreter.
 Requirements
+
 General
+
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
@@ -14,7 +17,9 @@ All your header files should be include guarded
 Use system calls only when you need to (why?)
 Write a README with the description of your project
 You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker
+
 Instructions
+
 Compiling the program: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 Interactive mode:
@@ -25,6 +30,7 @@ hsh main.c shell.c
 ($)
 ($) exit
 $
+
 Non-interactie mode:
 $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
@@ -37,7 +43,9 @@ $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
+
 Tasks
+
 0. README, man, AUTHORS
 Write a (README)[./README.md]
 Write a (man)[./man_1_simple_shell] for your shell.
